@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		804B846123E8843600C66501 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B846023E8843600C66501 /* AppDelegate.swift */; };
 		804B846323E8843600C66501 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B846223E8843600C66501 /* SceneDelegate.swift */; };
-		804B846523E8843600C66501 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B846423E8843600C66501 /* ViewController.swift */; };
+		804B846523E8843600C66501 /* KanyeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B846423E8843600C66501 /* KanyeViewController.swift */; };
 		804B846823E8843600C66501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804B846623E8843600C66501 /* Main.storyboard */; };
 		804B846A23E8844000C66501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804B846923E8844000C66501 /* Assets.xcassets */; };
 		804B846D23E8844000C66501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804B846B23E8844000C66501 /* LaunchScreen.storyboard */; };
+		804B847823EC77E300C66501 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B847723EC77E300C66501 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		804B845D23E8843600C66501 /* API Calling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API Calling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		804B846023E8843600C66501 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		804B846223E8843600C66501 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		804B846423E8843600C66501 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		804B846423E8843600C66501 /* KanyeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanyeViewController.swift; sourceTree = "<group>"; };
 		804B846723E8843600C66501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		804B846923E8844000C66501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		804B846C23E8844000C66501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		804B846E23E8844000C66501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		804B847723EC77E300C66501 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				804B846023E8843600C66501 /* AppDelegate.swift */,
 				804B846223E8843600C66501 /* SceneDelegate.swift */,
-				804B846423E8843600C66501 /* ViewController.swift */,
+				804B846423E8843600C66501 /* KanyeViewController.swift */,
 				804B846623E8843600C66501 /* Main.storyboard */,
+				804B847723EC77E300C66501 /* SwiftyJSON.swift */,
 				804B846923E8844000C66501 /* Assets.xcassets */,
 				804B846B23E8844000C66501 /* LaunchScreen.storyboard */,
 				804B846E23E8844000C66501 /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				804B846523E8843600C66501 /* ViewController.swift in Sources */,
+				804B846523E8843600C66501 /* KanyeViewController.swift in Sources */,
 				804B846123E8843600C66501 /* AppDelegate.swift in Sources */,
 				804B846323E8843600C66501 /* SceneDelegate.swift in Sources */,
+				804B847823EC77E300C66501 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
